@@ -1,0 +1,29 @@
+---
+AllCops:
+  TargetRubyVersion: 2.6
+
+Layout/ParameterAlignment:
+  Enabled: false
+Layout/ClosingParenthesisIndentation:
+  Enabled: false
+Layout/LineLength:
+  Max: 200
+Layout/MultilineMethodCallBraceLayout:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Naming/FileName:
+  Enabled: false
+
+Style/BlockDelimiters:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/Lambda:
+  EnforcedStyle: literal
+Style/StringLiterals:
+  Exclude:
+    - '*.gemspec'
+    - 'Gemfile'
